@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.718 s <<< FAILURE! -- in com.runner.TestRunner
+com.runner.TestRunner.runScenario["User login to the application", "Login functionality"](1) -- Time elapsed: 2.112 s <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.pages.Login.enterPassword(String)" because "this.login" is null
+	at com.stepdefinitions.LoginPage.user_eneter_password_as(LoginPage.java:26)
+	at ✽.User eneter password as "secret_sauce"(file:///E:/WorkSpace/EcommerceApp/src/test/resources/features/Login.feature:5)
+
