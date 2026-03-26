@@ -1,4 +1,10 @@
 E:\WorkSpace\EcommerceApp\src\test\java\com\factory\DriverFactory.java
 E:\WorkSpace\EcommerceApp\src\test\java\com\hooks\MyHooks.java
 E:\WorkSpace\EcommerceApp\src\test\java\com\runner\TestRunner.java
+E:\WorkSpace\EcommerceApp\src\test\java\com\stepdefinitions\AllfeaturePage.java
+E:\WorkSpace\EcommerceApp\src\test\java\com\stepdefinitions\BlogPage.java
+E:\WorkSpace\EcommerceApp\src\test\java\com\stepdefinitions\CoursePage.java
+E:\WorkSpace\EcommerceApp\src\test\java\com\stepdefinitions\FlipCardSearch.java
+E:\WorkSpace\EcommerceApp\src\test\java\com\stepdefinitions\HomePage.java
 E:\WorkSpace\EcommerceApp\src\test\java\com\stepdefinitions\LoginPage.java
+E:\WorkSpace\EcommerceApp\src\test\java\com\stepdefinitions\PracticePage.java

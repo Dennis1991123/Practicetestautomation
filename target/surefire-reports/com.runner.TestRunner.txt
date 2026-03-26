@@ -1,9 +1,25 @@
 -------------------------------------------------------------------------------
 Test set: com.runner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.718 s <<< FAILURE! -- in com.runner.TestRunner
-com.runner.TestRunner.runScenario["User login to the application", "Login functionality"](1) -- Time elapsed: 2.112 s <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "com.pages.Login.enterPassword(String)" because "this.login" is null
-	at com.stepdefinitions.LoginPage.user_eneter_password_as(LoginPage.java:26)
-	at ✽.User eneter password as "secret_sauce"(file:///E:/WorkSpace/EcommerceApp/src/test/resources/features/Login.feature:5)
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 121.1 s <<< FAILURE! -- in com.runner.TestRunner
+com.runner.TestRunner.runScenario["User Search functionality", "Flipcard shopping"](4) -- Time elapsed: 33.32 s <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because "webElement" is null
+	at com.utils.ElementUtils.typeTextIntoElement(ElementUtils.java:33)
+	at com.pages.FlipCardPage.searchBymac(FlipCardPage.java:36)
+	at com.stepdefinitions.FlipCardSearch.user_click_on_search_page_and_search(FlipCardSearch.java:23)
+	at ✽.user click on search page and search "mac"(file:///E:/WorkSpace/EcommerceApp/src/test/resources/features/Flipcard.feature:6)
+
+com.runner.TestRunner.runScenario["User login to the application", "Login functionality"](5) -- Time elapsed: 33.18 s <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because "webElement" is null
+	at com.utils.ElementUtils.typeTextIntoElement(ElementUtils.java:33)
+	at com.pages.Login.enterUsername(Login.java:37)
+	at com.stepdefinitions.LoginPage.user_enter_username_as(LoginPage.java:26)
+	at ✽.User enter username as "student"(file:///E:/WorkSpace/EcommerceApp/src/test/resources/features/Login.feature:6)
+
+com.runner.TestRunner.runScenario["", "practice functionality"](6) -- Time elapsed: 32.70 s <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because "webElement" is null
+	at com.utils.ElementUtils.clickOnElement(ElementUtils.java:26)
+	at com.pages.Home.clickPractice(Home.java:74)
+	at com.stepdefinitions.PracticePage.user_click_practice_hyperlink(PracticePage.java:27)
+	at ✽.User click Practice hyperlink(file:///E:/WorkSpace/EcommerceApp/src/test/resources/features/Practice.feature:5)
 

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Oct 31 13:56:17 IST 2025</td>
+<td>Started on:</td><td>Thu Mar 26 11:58:31 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>4 seconds (4224 ms)</td>
+<tr><td>Total time:</td><td>120 seconds (120530 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,16 +76,76 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User login to the application", "Login functionality"</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;com.pages.Login.enterPassword(String)&quot; because &quot;this.login&quot; is null
-	at com.stepdefinitions.LoginPage.user_eneter_password_as(LoginPage.java:26)
-	at ✽.User eneter password as &quot;secret_sauce&quot;(file:///E:/WorkSpace/EcommerceApp/src/test/resources/features/Login.feature:5)
-</pre></div><a href='#' onClick='toggleBox("stack-trace197855654", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace197855654'><pre>java.lang.NullPointerException: Cannot invoke &quot;com.pages.Login.enterPassword(String)&quot; because &quot;this.login&quot; is null
-	at com.stepdefinitions.LoginPage.user_eneter_password_as(LoginPage.java:26)
-	at ✽.User eneter password as &quot;secret_sauce&quot;(file:///E:/WorkSpace/EcommerceApp/src/test/resources/features/Login.feature:5)
+<td title='com.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User Search functionality", "Flipcard shopping"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebElement.click()&quot; because &quot;webElement&quot; is null
+	at com.utils.ElementUtils.typeTextIntoElement(ElementUtils.java:33)
+	at com.pages.FlipCardPage.searchBymac(FlipCardPage.java:36)
+	at com.stepdefinitions.FlipCardSearch.user_click_on_search_page_and_search(FlipCardSearch.java:23)
+	at ✽.user click on search page and search &quot;mac&quot;(file:///E:/WorkSpace/EcommerceApp/src/test/resources/features/Flipcard.feature:6)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1928900108", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1928900108'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebElement.click()&quot; because &quot;webElement&quot; is null
+	at com.utils.ElementUtils.typeTextIntoElement(ElementUtils.java:33)
+	at com.pages.FlipCardPage.searchBymac(FlipCardPage.java:36)
+	at com.stepdefinitions.FlipCardSearch.user_click_on_search_page_and_search(FlipCardSearch.java:23)
+	at ✽.user click on search page and search &quot;mac&quot;(file:///E:/WorkSpace/EcommerceApp/src/test/resources/features/Flipcard.feature:6)
 </pre></div></td>
-<td>2</td>
+<td>33</td>
+<td>com.runner.TestRunner@2b546384</td></tr>
+<tr>
+<td title='com.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "practice functionality"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebElement.click()&quot; because &quot;webElement&quot; is null
+	at com.utils.ElementUtils.clickOnElement(ElementUtils.java:26)
+	at com.pages.Home.clickPractice(Home.java:74)
+	at com.stepdefinitions.PracticePage.user_click_practice_hyperlink(PracticePage.java:27)
+	at ✽.User click Practice hyperlink(file:///E:/WorkSpace/EcommerceApp/src/test/resources/features/Practice.feature:5)
+</pre></div><a href='#' onClick='toggleBox("stack-trace730949640", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace730949640'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebElement.click()&quot; because &quot;webElement&quot; is null
+	at com.utils.ElementUtils.clickOnElement(ElementUtils.java:26)
+	at com.pages.Home.clickPractice(Home.java:74)
+	at com.stepdefinitions.PracticePage.user_click_practice_hyperlink(PracticePage.java:27)
+	at ✽.User click Practice hyperlink(file:///E:/WorkSpace/EcommerceApp/src/test/resources/features/Practice.feature:5)
+</pre></div></td>
+<td>32</td>
+<td>com.runner.TestRunner@2b546384</td></tr>
+<tr>
+<td title='com.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User login to the application", "Login functionality"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebElement.click()&quot; because &quot;webElement&quot; is null
+	at com.utils.ElementUtils.typeTextIntoElement(ElementUtils.java:33)
+	at com.pages.Login.enterUsername(Login.java:37)
+	at com.stepdefinitions.LoginPage.user_enter_username_as(LoginPage.java:26)
+	at ✽.User enter username as &quot;student&quot;(file:///E:/WorkSpace/EcommerceApp/src/test/resources/features/Login.feature:6)
+</pre></div><a href='#' onClick='toggleBox("stack-trace716333944", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace716333944'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebElement.click()&quot; because &quot;webElement&quot; is null
+	at com.utils.ElementUtils.typeTextIntoElement(ElementUtils.java:33)
+	at com.pages.Login.enterUsername(Login.java:37)
+	at com.stepdefinitions.LoginPage.user_enter_username_as(LoginPage.java:26)
+	at ✽.User enter username as &quot;student&quot;(file:///E:/WorkSpace/EcommerceApp/src/test/resources/features/Login.feature:6)
+</pre></div></td>
+<td>33</td>
+<td>com.runner.TestRunner@2b546384</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User login to the application", "All functionality"</td>
+<td></td>
+<td>7</td>
+<td>com.runner.TestRunner@2b546384</td></tr>
+<tr>
+<td title='com.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Course functionality"</td>
+<td></td>
+<td>4</td>
+<td>com.runner.TestRunner@2b546384</td></tr>
+<tr>
+<td title='com.runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "", "Blog functionality"</td>
+<td></td>
+<td>4</td>
 <td>com.runner.TestRunner@2b546384</td></tr>
 </table><p>
 </body>
